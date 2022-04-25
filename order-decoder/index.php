@@ -1,3 +1,7 @@
+<?php
+require_once('../ClassLibraries/ginoPomo/MainClass.php');
+$mainPlug = new mainClass();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
