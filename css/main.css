@@ -453,6 +453,36 @@ input.input100 {
     width: 100%;
     padding: 0 5px;
   }
+
+  .container-login100 {
+    width: 100%;  
+    min-height: 70vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background: #fff;
+    margin: 120px auto 40px;
+    /* margin-top: 84px;; */
+  }
+
+  .container-login100-form-btn {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 30px 50px;
+    align-items: center;
+    margin: auto;
+  }
 }
 
 
