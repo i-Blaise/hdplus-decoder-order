@@ -1,6 +1,6 @@
 <?php
 
-require_once('../ClassLibraries/DB/DB.php');
+require_once('DatabaseCon.php');
 // require_once('../ClassLibraries/DB/adminCredDB.php');
 
 class mainClass extends DataBase{
@@ -21,7 +21,6 @@ class mainClass extends DataBase{
             $phone_number = isset($data['phone_number']) ? $data['phone_number'] : NULL;
             $moms_name = isset($data['moms_name']) ? $data['moms_name'] : NULL;
             $message_to_mom = isset($data['message_to_mom']) ? $data['message_to_mom'] : NULL;
-        }
 
             $myQuery = "INSERT INTO decoder_orders (
                 fname,
@@ -38,15 +37,15 @@ class mainClass extends DataBase{
                 '$message_to_mom'
                 )";
 
-            $result = mysqli_query($this->hdplusDB(), $myQuery);
+            $result = mysqli_query($this->dbh, $myQuery);
             if(!$result){
-            return "Error: " .mysqli_error($this->hdplusDB());
+            return "Error: " .mysqli_error($this->dbh);
             }else{
             return 'good';
             }
+        }else{
+            return 'seen';
+        }
 
     }
-
-
-
 }

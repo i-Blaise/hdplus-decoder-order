@@ -1,17 +1,7 @@
 <?php
-require_once('../ClassLibraries/hdplusMothers/MainClass.php');
+require_once('../ClassLibraries/MainClass.php');
+// include('../ClassLibraries/hdplusMothers/MainClass.php');
 $mainPlug = new mainClass();
-
-if(isset($_POST['submit']) && $_POST['submit'] == 'submit'){
-  $submitStatus = $mainPlug->uploadOrder($_POST);
-
-  if($submitStatus == 'good'){
-    echo 'gooood';
-  }else{
-    var_dump($submitStatus);
-    die();
-  }
-}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -47,9 +37,35 @@ if(isset($_POST['submit']) && $_POST['submit'] == 'submit'){
     <link rel="stylesheet" type="text/css" href="css/util.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
   <!--===============================================================================================-->
+
+  	<!-- Notification -->
+	<!-- jQuery -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Toastr -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
     <title>Staging Website</title>
 </head>
 
+<?php
+if(isset($_POST['submit']) && $_POST['submit'] == 'submit'){
+  $submitStatus = $mainPlug->uploadOrder($_POST);
+
+  if($submitStatus == 'good'){
+    // echo 'gooood';
+    echo " <script type='text/javascript'>   
+    $(document).ready(function() {
+    toastr.options.positionClass = 'toast-top-right';
+    toastr.options.closeButton = true;
+    toastr.options.closeDuration = 300;
+    toastr.success('A Customer Service Representative will be in touch to complete your order.', 'Order Submited');
+});
+</script>";
+  }else{
+    echo 'Error: '.$submitStatus ;
+  }
+}
+?>
 <body>
     <div class="nav">
         <input type="checkbox" id="nav-check">
@@ -173,5 +189,7 @@ if(isset($_POST['submit']) && $_POST['submit'] == 'submit'){
          <div class="ses-wrapper"><a href="https://www.ses.com/">SES GROUP</a></div>
          <div class="c-rigth"><p class="p-footer">COPYRIGHT © 2020 ALL RIGHTS RESERVED</p></div>
        </div>
+
+       
 </body>
 </html>
