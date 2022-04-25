@@ -1,6 +1,16 @@
 <?php
 require_once('../ClassLibraries/ginoPomo/MainClass.php');
 $mainPlug = new mainClass();
+
+if(isset($_POST['submit']) && $_POST['submit'] == 'submit'){
+  $submitStatus = $mainPlug->uploadWinner($_POST);
+
+  if($submitStatus == 'good'){
+    echo 'gooood';
+  }else{
+    echo 'nooo';
+  }
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -38,17 +48,7 @@ $mainPlug = new mainClass();
   <!--===============================================================================================-->
     <title>Staging Website</title>
 </head>
-<?php 
-if($_POST['submit'] && $_POST['submit'] == 'submit'){
-  $submitStatus = $mainPlug->uploadWinner($_POST);
 
-  if($submitStatus == 'good'){
-    echo 'gooood';
-  }else{
-    echo 'nooo';
-  }
-}
-?>
 <body>
     <div class="nav">
         <input type="checkbox" id="nav-check">
@@ -92,45 +92,45 @@ if($_POST['submit'] && $_POST['submit'] == 'submit'){
     </div>
     <div class="container-contact100">
       <div class="wrap-contact100">
-        <form class="contact100-form validate-form">
+        <form class="contact100-form validate-form" action="" method="POST">
           <span class="contact100-form-title">
             Order a Decoder
           </span>
   
           <label class="label-input100" for="first-name">Tell us your name *</label>
           <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Type first name">
-            <input id="first-name" class="input100" type="text" name="first-name" placeholder="First name" required>
+            <input id="first-name" class="input100" type="text" name="fname" placeholder="First name" required>
             <span class="focus-input100"></span>
           </div>
           <div class="wrap-input100 rs2-wrap-input100 validate-input" data-validate="Type last name">
-            <input class="input100" type="text" name="last-name" placeholder="Last name" required>
+            <input class="input100" type="text" name="lname" placeholder="Last name" required>
             <span class="focus-input100"></span>
           </div>
   
           <label class="label-input100" for="first-name">Contact *</label>
           <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Type first name">
-            <input id="first-name" class="input100" type="email" name="first-name" placeholder="Email" required>
+            <input id="first-name" class="input100" type="email" name="email" placeholder="Email" required>
             <span class="focus-input100"></span>
           </div>
           <div class="wrap-input100 rs2-wrap-input100 validate-input" data-validate="Type last name">
-            <input class="input100" type="tel" name="last-name" placeholder="Phone Number" required>
+            <input class="input100" type="tel" name="phone_number" placeholder="Phone Number" required>
             <span class="focus-input100"></span>
           </div>
 
           <label class="label-input100" for="phone">Mom's Name *</label>
 				<div class="wrap-input100">
-					<input id="phone" class="input100" type="text" name="phone" placeholder="Eg. Jane Doe" required>
+					<input id="phone" class="input100" type="text" name="moms_name" placeholder="Eg. Jane Doe" required>
 					<span class="focus-input100"></span>
 				</div>
   
           <label class="label-input100" for="message">Write A Message To Mom</label>
           <div class="wrap-input100 validate-input" data-validate = "Message is required">
-            <textarea id="message" class="input100" name="message" placeholder="Write us a message"></textarea>
+            <textarea id="message" class="input100" name="message_to_mom" placeholder="Write us a message"></textarea>
             <span class="focus-input100"></span>
           </div>
   
           <div class="container-contact100-form-btn">
-            <button class="contact100-form-btn">
+            <button class="contact100-form-btn" name="submit" value="submit">
               Submit
             </button>
           </div>

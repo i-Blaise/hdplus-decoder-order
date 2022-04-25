@@ -19,6 +19,7 @@ class mainClass extends DataBase{
             $lname = isset($data['lname']) ? $data['lname'] : NULL;
             $email = isset($data['email']) ? $data['email'] : NULL;
             $phone_number = isset($data['phone_number']) ? $data['phone_number'] : NULL;
+            $moms_name = isset($data['moms_name']) ? $data['moms_name'] : NULL;
             $message_to_mom = isset($data['message_to_mom']) ? $data['message_to_mom'] : NULL;
         }
 
@@ -27,12 +28,14 @@ class mainClass extends DataBase{
                 lname,
                 email,
                 phone_number,
+                moms_name,
                 message_to_mom) VALUES (
                 '$fname',
                 '$lname',
                 '$email',
                 '$phone_number',
-                '$message_to_mom'
+                '$message_to_mom',
+                '$moms_name'
                 )";
 
             $result = mysqli_query($this->hdplusDB(), $myQuery);
