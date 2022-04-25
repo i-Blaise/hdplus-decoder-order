@@ -390,7 +390,7 @@ input.input100 {
   display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
-  padding: 50px;
+  padding: 0 50px 50px;
   align-items: center;
   margin: auto;
 }
