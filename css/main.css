@@ -178,14 +178,14 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 81px;
-  background: #ebeeef;
+  background: #fff;
   /* margin-top: 84px;; */
 }
 
 
 .wrap-login100 {
   width: 670px;
-  background: #fff;
+  background: #efefef;
   border-radius: 10px;
   overflow: hidden;
   position: relative;
@@ -390,9 +390,9 @@ input.input100 {
   display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
-  padding: 50px 10px;
+  padding: 50px;
   align-items: center;
-  margin-left: 13%;
+  margin: auto;
 }
 
 .login100-form-btn {
@@ -404,7 +404,7 @@ input.input100 {
   justify-content: center;
   align-items: center;
   padding: 0 20px;
-  min-width: 160px;
+  width: 250px;
   height: 50px;
   background-color: rgb(0, 0, 0);
   border-radius: 25px;
