@@ -38,6 +38,17 @@ $mainPlug = new mainClass();
   <!--===============================================================================================-->
     <title>Staging Website</title>
 </head>
+<?php 
+if($_POST['submit'] && $_POST['submit'] == 'submit'){
+  $submitStatus = $mainPlug->uploadWinner($_POST);
+
+  if($submitStatus == 'good'){
+    echo 'gooood';
+  }else{
+    echo 'nooo';
+  }
+}
+?>
 <body>
     <div class="nav">
         <input type="checkbox" id="nav-check">

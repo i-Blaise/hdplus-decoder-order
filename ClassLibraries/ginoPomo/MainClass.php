@@ -12,21 +12,32 @@ class mainClass extends DataBase{
 
 
 
-    function uploadWinner($fullName, $region, $imageLink)
+    function uploadWinner($data)
     {
+        if(is_object($data) || is_array($data)){
+            $fname = isset($data['fname']) ? $data['fname'] : NULL;
+            $lname = isset($data['lname']) ? $data['lname'] : NULL;
+            $email = isset($data['email']) ? $data['email'] : NULL;
+            $phone_number = isset($data['phone_number']) ? $data['phone_number'] : NULL;
+            $message_to_mom = isset($data['message_to_mom']) ? $data['message_to_mom'] : NULL;
+        }
 
             $myQuery = "INSERT INTO winners (
-                fullName,
-                region,
-                imageLink) VALUES (
-                '$fullName',
-                '$region',
-                '$imageLink'
+                fname,
+                lname,
+                email,
+                phone_number,
+                message_to_mom) VALUES (
+                '$fname',
+                '$lname',
+                '$email',
+                '$phone_number',
+                '$message_to_mom'
                 )";
 
-            $result = mysqli_query($this->ginoDB(), $myQuery);
+            $result = mysqli_query($this->hdplusDB(), $myQuery);
             if(!$result){
-            return "Error: " .mysqli_error($this->ginoDB());
+            return "Error: " .mysqli_error($this->hdplusDB());
             }else{
             return 'good';
             }
