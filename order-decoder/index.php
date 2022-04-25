@@ -1,14 +1,15 @@
 <?php
-require_once('../ClassLibraries/ginoPomo/MainClass.php');
+require_once('../ClassLibraries/hdplusMothers/MainClass.php');
 $mainPlug = new mainClass();
 
 if(isset($_POST['submit']) && $_POST['submit'] == 'submit'){
-  $submitStatus = $mainPlug->uploadWinner($_POST);
+  $submitStatus = $mainPlug->uploadOrder($_POST);
 
   if($submitStatus == 'good'){
     echo 'gooood';
   }else{
-    echo 'nooo';
+    var_dump($submitStatus);
+    die();
   }
 }
 ?>

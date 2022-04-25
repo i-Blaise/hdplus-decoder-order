@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-// HDPLUS Pomp Promotion DB
+// HDPLUS DB
 define('HDPLUS_DB_SERVER','localhost');
 define('HDPLUS_DB_USER','root');
 define('HDPLUS_DB_PASS' ,'');

@@ -12,7 +12,7 @@ class mainClass extends DataBase{
 
 
 
-    function uploadWinner($data)
+    function uploadOrder($data)
     {
         if(is_object($data) || is_array($data)){
             $fname = isset($data['fname']) ? $data['fname'] : NULL;
@@ -23,7 +23,7 @@ class mainClass extends DataBase{
             $message_to_mom = isset($data['message_to_mom']) ? $data['message_to_mom'] : NULL;
         }
 
-            $myQuery = "INSERT INTO winners (
+            $myQuery = "INSERT INTO decoder_orders (
                 fname,
                 lname,
                 email,
@@ -34,8 +34,8 @@ class mainClass extends DataBase{
                 '$lname',
                 '$email',
                 '$phone_number',
-                '$message_to_mom',
-                '$moms_name'
+                '$moms_name',
+                '$message_to_mom'
                 )";
 
             $result = mysqli_query($this->hdplusDB(), $myQuery);
