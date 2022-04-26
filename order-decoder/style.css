@@ -260,12 +260,11 @@ body{
     margin: 2rem 7rem;
 }
 input[type=text] {
-    padding: 15px 50px 15px 0;
+    padding: 15px 50px 15px 25px;
     background: transparent;
     border-top: 0;
     border-left: 0;
     border-right: 0;
-    margin-bottom: 20px;
     font-family: 'Epilogue', sans-serif;
     width: 250px;
 }
