@@ -39,7 +39,7 @@
 body, html {
 	height: 100%;
 	font-family: Poppins-Regular, sans-serif;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 /*---------------------------------------------*/
@@ -232,7 +232,7 @@ iframe {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(94, 118, 129, 0.7);
+  background-color: rgba(94, 118, 129, 30%);
 }
 
 

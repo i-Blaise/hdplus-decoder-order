@@ -111,7 +111,7 @@ if(isset($_POST['submit']) && $_POST['submit'] == 'submit'){
       <div class="wrap-contact100">
         <form class="contact100-form validate-form" action="" method="POST">
           <span class="contact100-form-title">
-            Order a Decoder
+          Gift Mom an HD+ Decoder to watch TV in 5X clearer pictures.
           </span>
   
           <label class="label-input100" for="first-name">Tell us your name *</label>
@@ -142,7 +142,7 @@ if(isset($_POST['submit']) && $_POST['submit'] == 'submit'){
   
           <label class="label-input100" for="message">Write A Message To Mom</label>
           <div class="wrap-input100 validate-input" data-validate = "Message is required">
-            <textarea id="message" class="input100" name="message_to_mom" placeholder="Write us a message"></textarea>
+            <textarea id="message" class="input100" name="message_to_mom" placeholder="Write A Message To Mom"></textarea>
             <span class="focus-input100"></span>
           </div>
   
@@ -153,7 +153,7 @@ if(isset($_POST['submit']) && $_POST['submit'] == 'submit'){
           </div>
         </form>
   
-        <div class="contact100-more flex-col-c-m" style="background-image: url('images/bg.jpeg');">
+        <div class="contact100-more flex-col-c-m" style="background-image: url('images/bg.png');">
           <div class="flex-w size1 p-b-47">
 
 

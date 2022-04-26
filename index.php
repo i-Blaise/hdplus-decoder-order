@@ -33,9 +33,29 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
   <!--===============================================================================================-->
 
+    	<!-- Notification -->
+	<!-- jQuery -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Toastr -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
 
 
-    <title>Staging Website</title>
+  <?php
+  if(isset($_GET['status']) && $_GET['status'] == "notopen")
+  { 
+      echo "     <script type='text/javascript'>   
+      $(document).ready(function() {
+      toastr.options.positionClass = 'toast-top-right';
+      toastr.options.closeButton = true;
+      toastr.options.closeDuration = 300;
+      toastr.warning('Please visit and try again from 3rd May 2022', 'Portal Not Ready');
+  });
+  </script>";
+  }
+  ?>
+
+    <title>HD+ Mothers Day</title>
 </head>
 <body>
     <div class="nav">
@@ -83,7 +103,7 @@
     <!-- <div class="limiter"> -->
       <div class="container-login100">
         <div class="wrap-login100">
-          <div class="login100-form-title" style="background-image: url(images/banner-01.jpg);">
+          <div class="login100-form-title" style="background-image: url(images/Maame-Hwɛ.png);">
             <!-- <span class="login100-form-title-1">
               Sign In
             </span> -->
@@ -96,9 +116,9 @@
               <a class="btn" href="order-decoder/"><button class="login100-form-btn" name="submit" value="Submit">
                 Gift Mom a Decoder
               </button> </a>
-              <a class="btn" href="#" disabled><button class="login100-form-btn" name="submit" value="Submit" disabled>
+              <!-- <a class="btn" href="?status=notopen" id="subscription" disabled><button class="login100-form-btn" name="submit" value="Submit">
                 Gift Mom a Subscription
-              </button></a>
+              </button></a> -->
             </div>
         </div>
       </div>
