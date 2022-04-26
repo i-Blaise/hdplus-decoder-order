@@ -109,17 +109,11 @@
               Sign In
             </span>
           </div> -->
-<<<<<<< HEAD
-      <!-- <h3 class="main-page-header">Let your love be scene</h3> -->
-		  <p class="main-page-text" style="padding-top: 40px; padding-bottom: 10px;">This Mother’s Day, it’s your turn to put smiles on Mom’s face as she <br> watches her favourite shows FeeliFeeli in 5X clearer pictures.</p>
-      <p class="main-page-text">The first 3 orders per day get to treat mom to <br> lunch with Adina and Akrobetu on Mother’s Day.</p>
-=======
           <!-- This Mother’s Day, it’s your turn to put smiles on Mom’s face as she watches her favourite shows FeeliFeeli in 5X clearer pictures.
 
           The first 3 orders per day get to treat mom to lunch with Adina and Akrobetu on Mother’s Day. -->
       <h3 class="main-page-header">This Mother’s Day</h3>
 		  <p class="main-page-text">it’s your turn to put smiles on Mom’s face as she watches her favourite shows FeeliFeeli in 5X clearer pictures. <br> The first 3 orders per day get to treat mom to lunch with Adina and Akrobetu on Mother’s Day.</p>
->>>>>>> ddde450b3947a8e813f8ca5cd6fd0491ce6d5bc2
   
             <div class="container-login100-form-btn">
               <a class="btn" href="order-decoder/"><button class="login100-form-btn" name="submit" value="Submit">
