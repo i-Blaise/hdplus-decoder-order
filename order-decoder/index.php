@@ -47,7 +47,7 @@ $mainPlug = new mainClass();
     <title>HD+ Mothers Day</title>
 </head>
 
-<!-- <?php
+ <?php
 if(isset($_POST['submit']) && $_POST['submit'] == 'submit'){
   $submitStatus = $mainPlug->uploadOrder($_POST);
 
@@ -65,7 +65,7 @@ if(isset($_POST['submit']) && $_POST['submit'] == 'submit'){
     echo 'Error: '.$submitStatus ;
   }
 }
-?> -->
+?> 
 <body>
     <div class="nav">
         <input type="checkbox" id="nav-check">
