@@ -116,9 +116,9 @@
               <a class="btn" href="order-decoder/"><button class="login100-form-btn" name="submit" value="Submit">
                 Gift Mom a Decoder
               </button> </a>
-              <!-- <a class="btn" href="?status=notopen" id="subscription" disabled><button class="login100-form-btn" name="submit" value="Submit">
+              <a class="btn" href="?status=notopen" id="subscription" disabled><button class="login100-form-btn" name="submit" value="Submit">
                 Gift Mom a Subscription
-              </button></a> -->
+              </button></a>
             </div>
         </div>
       </div>
