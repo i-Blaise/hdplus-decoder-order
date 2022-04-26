@@ -114,13 +114,13 @@
               Sign In
             </span>
           </div> -->
-      <h3 class="main-page-header">Let your love be scene</h3>
-		  <p class="main-page-text">Show mom she’s your
-        favourite with an <br> HD+ voucher subscription this Mother’s day</p>
+      <!-- <h3 class="main-page-header">Let your love be scene</h3> -->
+		  <p class="main-page-text" style="padding-top: 40px; padding-bottom: 10px;">This Mother’s Day, it’s your turn to put smiles on Mom’s face as she <br> watches her favourite shows FeeliFeeli in 5X clearer pictures.</p>
+      <p class="main-page-text">The first 3 orders per day get to treat mom to <br> lunch with Adina and Akrobetu on Mother’s Day.</p>
   
             <div class="container-login100-form-btn">
               <a class="btn" href="order-decoder/"><button class="login100-form-btn" name="submit" value="Submit">
-                Gift Mom a Decoder
+                Gift mom a decoder
               </button> </a>
 <<<<<<< HEAD:index.html
               <!-- <a class="btn" href="#" disabled><button class="login100-form-btn" name="submit" value="Submit" disabled>
