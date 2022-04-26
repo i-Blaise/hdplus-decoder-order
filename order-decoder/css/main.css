@@ -258,9 +258,10 @@ iframe {
   font-family: Poppins-Regular;
   font-size: 17px;
   color: #333333;
-  line-height: 1.4;
+  line-height: 1.6;
   text-align: center;
   padding-bottom: 33px;
+  letter-spacing: 1px;
 }
 
 .img-mom {
