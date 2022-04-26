@@ -188,7 +188,8 @@ iframe {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 15px;
+  padding-top: 40px;
+  margin: auto;
   background: #f2f2f2;
   
 }
