@@ -153,12 +153,8 @@ if(isset($_POST['submit']) && $_POST['submit'] == 'submit'){
             </button>
           </div>
         </form>
-  
-        <div class="contact100-more flex-col-c-m" style="background-image: url('images/bg.png');">
-          <div class="flex-w size1 p-b-47">
 
-
-        </div>
+        <img class="img-mom" src="images/bg.png" alt="">
       </div>
     </div>
   
