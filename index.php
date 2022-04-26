@@ -104,31 +104,24 @@
       <div class="container-login100">
         <img class="img-rel" src="images/mum-hwe.png" alt="">
         <div class="wrap-login100">
-<<<<<<< HEAD:index.html
           <!-- <div class="login100-form-title" style="background-image: url(images/banner-01.jpg);">
             <span class="login100-form-title-1">
-=======
-          <div class="login100-form-title" style="background-image: url(images/Maame-Hwɛ.png);">
-            <!-- <span class="login100-form-title-1">
->>>>>>> 0fed2ac81154f65f38f335ab1f63fd3237846c6f:index.php
               Sign In
             </span>
           </div> -->
-      <h3 class="main-page-header">Let your love be scene</h3>
-		  <p class="main-page-text">Show mom she’s your
-        favourite with an <br> HD+ voucher subscription this Mother’s day</p>
+          <!-- This Mother’s Day, it’s your turn to put smiles on Mom’s face as she watches her favourite shows FeeliFeeli in 5X clearer pictures.
+
+          The first 3 orders per day get to treat mom to lunch with Adina and Akrobetu on Mother’s Day. -->
+      <h3 class="main-page-header">This Mother’s Day</h3>
+		  <p class="main-page-text">it’s your turn to put smiles on Mom’s face as she watches her favourite shows FeeliFeeli in 5X clearer pictures. <br> The first 3 orders per day get to treat mom to lunch with Adina and Akrobetu on Mother’s Day.</p>
   
             <div class="container-login100-form-btn">
               <a class="btn" href="order-decoder/"><button class="login100-form-btn" name="submit" value="Submit">
                 Gift Mom a Decoder
               </button> </a>
-<<<<<<< HEAD:index.html
-              <!-- <a class="btn" href="#" disabled><button class="login100-form-btn" name="submit" value="Submit" disabled>
-=======
               <a class="btn" href="?status=notopen" id="subscription" disabled><button class="login100-form-btn" name="submit" value="Submit">
->>>>>>> 0fed2ac81154f65f38f335ab1f63fd3237846c6f:index.php
                 Gift Mom a Subscription
-              </button></a> -->
+              </button></a>
             </div>
         </div>
       </div>

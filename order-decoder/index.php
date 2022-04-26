@@ -111,7 +111,7 @@ if(isset($_POST['submit']) && $_POST['submit'] == 'submit'){
       <div class="wrap-contact100">
         <form class="contact100-form validate-form" action="" method="POST">
           <span class="contact100-form-title">
-          Gift Mom an HD+ Decoder to watch TV in 5X clearer pictures.
+          Place your order for an HD+ Decoder with 5 months subscription at GHC170 for mom and we will call you to arrange delivery. The first 3 orders per day get to treat mom to lunch with Adina and Akrobetu on Mother’s Day.
           </span>
   
           <label class="label-input100" for="first-name">Tell us your name *</label>
@@ -146,6 +146,7 @@ if(isset($_POST['submit']) && $_POST['submit'] == 'submit'){
             <span class="focus-input100"></span>
           </div>
   
+          <p style="color: #bd1111;">Terms and Conditions apply</p>
           <div class="container-contact100-form-btn">
             <button class="contact100-form-btn" name="submit" value="submit">
               Submit
