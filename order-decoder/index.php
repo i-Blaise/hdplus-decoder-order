@@ -134,6 +134,16 @@ if(isset($_POST['submit']) && $_POST['submit'] == 'submit'){
             <span class="focus-input100"></span>
           </div>
 
+          <label class="label-input100" for="first-name">Location *</label>
+          <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Type first name">
+            <input id="first-name" class="input100" type="text" name="moms_loc" placeholder="Mom's Location" required>
+            <span class="focus-input100"></span>
+          </div>
+          <div class="wrap-input100 rs2-wrap-input100 validate-input" data-validate="Type last name">
+            <input class="input100" type="text" name="your_loc" placeholder="Your Location" required>
+            <span class="focus-input100"></span>
+          </div>
+
           <label class="label-input100" for="phone">Mom's Name *</label>
 				<div class="wrap-input100">
 					<input id="phone" class="input100" type="text" name="moms_name" placeholder="Eg. Jane Doe" required>
