@@ -1,15 +1,19 @@
 <?php
-require_once('constants.php');
+session_start();
+define('DB_SERVER','localhost');
+define('DB_USER','root');
+define('DB_PASS' ,'');
+define('DB_NAME', 'hdplus_mothersday-2022');
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
-class IDPortaLDB
+class DataBase
 {
   // public static $con;
  function __construct()
  {
-$adminCon = mysqli_connect(IDP_DB_SERVER,IDP_DB_USER,IDP_DB_PASS,IDP_DB_NAME);
-$this->admindb=$adminCon;
+$con = mysqli_connect(DB_SERVER,DB_USER,DB_PASS,DB_NAME);
+$this->dbh=$con;
 // Check connection
 if (mysqli_connect_errno())
 {
