@@ -39,6 +39,7 @@
 body, html {
 	height: 100%;
 	font-family: Poppins-Regular, sans-serif;
+  background: #8177B6;
   /* overflow: hidden; */
 }
 
@@ -439,6 +440,8 @@ input.input100 {
   font-weight: 600;
   text-align: center;
   color: rgb(0, 0, 0);
+  width: 78%;
+  margin: auto;
 }
 
 .main-page-header{
@@ -463,6 +466,14 @@ input.input100 {
     padding: 43px 15px 57px 15px;
   }
 
+  .img-rel {
+    width: 400px;
+    position: relative;
+    z-index: 2;
+    left: 0;
+    bottom: -25px;
+}
+
   .label-input100 {
     text-align: left;
     position: unset;
@@ -484,7 +495,7 @@ input.input100 {
     justify-content: center;
     align-items: center;
     padding: 25px;
-    background: #fff;
+    background: url('../images/Web7.png');
     margin: 120px auto 40px;
     /* margin-top: 84px;; */
   }
