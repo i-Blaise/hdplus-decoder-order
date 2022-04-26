@@ -178,7 +178,7 @@ iframe {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 81px;
+  padding: 21px 181px 0 0;
   background: url('../images/Web7.png');
   /* background: #807aa3; */
   /* margin-top: 84px;; */
@@ -186,9 +186,9 @@ iframe {
 
 .img-rel {
   width: 400px;
-  position: absolute;
+  position: relative;
   z-index: 2;
-  left: 300px;
+  left: 215px;
 }
 
 .wrap-login100 {
