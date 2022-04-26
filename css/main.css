@@ -188,7 +188,8 @@ iframe {
   width: 400px;
   position: relative;
   z-index: 2;
-  left: 215px;
+  left: 150px;
+  bottom: 20px;
 }
 
 .wrap-login100 {
