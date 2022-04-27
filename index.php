@@ -14,7 +14,7 @@
 
     
 <!--===============================================================================================-->
-	<link rel="icon" type="image/png" href="images/hdplus-logo.jpg"/>
+	<link rel="icon" type="image/png" href="order-decoder/images/hdplus-logo.jpg"/>
   <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
   <!--===============================================================================================-->
