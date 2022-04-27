@@ -179,26 +179,38 @@ iframe {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 21px 181px 0 0;
-  background: url('../images/Web7.png');
+  padding: 21px 0 0 0;
+  background: url('../images/Web7-min.png');
   /* background: #807aa3; */
   /* margin-top: 84px;; */
 }
 
-.img-rel {
+/* .img-rel {
   width: 400px;
   position: relative;
   z-index: 2;
   left: 150px;
   bottom: 20px;
+} */
+
+.img-rel {
+  width: 650px;
+  position: relative;
+  z-index: 2;
+  left: 100px;
+  bottom: 20px;
 }
 
 .wrap-login100 {
-  width: 670px;
+  width: 765px;
   background: #fcc000;
   border-radius: 10px;
   overflow: hidden;
   position: relative;
+  right: 145px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
 }
 
 /*==================================================================
@@ -393,14 +405,14 @@ input.input100 {
 /*------------------------------------------------------------------
 [ Button ]*/
 .container-login100-form-btn {
-  width: 55%;
+  width: auto;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
-  padding: 10px 50px 35px;
+  padding: 10px 0 35px;
   align-items: center;
   margin: auto;
 }
@@ -428,6 +440,7 @@ input.input100 {
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
   transition: all 0.4s;
+  margin-left: 80px;
 }
 
 .login100-form-btn:hover {
@@ -442,6 +455,7 @@ input.input100 {
   color: rgb(0, 0, 0);
   width: 78%;
   margin: auto;
+  margin-right: 40px;
 }
 
 .main-page-header{
@@ -455,15 +469,32 @@ input.input100 {
 /*------------------------------------------------------------------
 [ Responsive ]*/
 
+@media only screen and (min-width: 768px) and (max-width: 1280px) {
+  .img-rel {
+    width: 500px;
+    position: relative;
+    z-index: 2;
+    left: 70px;
+    bottom: 28px;
+}
+}
+
 @media (max-width: 576px) {
   .login100-form {
     padding: 43px 15px 57px 117px;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .login100-form {
     padding: 43px 15px 57px 15px;
+  }
+
+  .login100-form-btn {
+    margin: auto!important;
+  }
+  .main-page-text{
+    margin: auto;
   }
 
   .img-rel {
@@ -510,7 +541,19 @@ input.input100 {
     flex-wrap: wrap;
     padding: 0 30px 50px;
     align-items: center;
+    justify-content: center;
     margin: auto;
+  }
+  .wrap-login100 {
+    width: 765px;
+    background: #fcc000;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    right: 0;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
   }
 }
 
