@@ -164,7 +164,7 @@ if(isset($_POST['submit']) && $_POST['submit'] == 'submit'){
           </div>
         </form>
 
-        <img class="img-mom" src="images/bg.png" alt="">
+        <img class="img-mom" src="../images/bg-min.png" alt="">
       </div>
     </div>
   

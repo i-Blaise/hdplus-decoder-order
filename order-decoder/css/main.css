@@ -241,7 +241,7 @@ iframe {
 [ Form ]*/
 
 .contact100-form {
-  width: 35%;
+  width: 45%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -265,7 +265,7 @@ iframe {
 }
 
 .img-mom {
-  width: 784px;
+  width: 51%;
   object-fit: contain;
 }
 
@@ -429,10 +429,6 @@ textarea.input100 {
     width: 60%;
     padding: 56px 30px 63px 30px;
   }
-
-  .contact100-more {
-    width: 40%;
-  }
 }
 
 @media (max-width: 768px) {
@@ -445,7 +441,7 @@ textarea.input100 {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 600px) {
   .contact100-form {
     padding: 56px 15px 63px 15px;
   }
@@ -477,7 +473,7 @@ textarea.input100 {
     
   }
   .contact100-form {
-    width: 90%;
+    width: 350px;
     margin: auto;
   }
   .wrap-contact100{
@@ -559,5 +555,23 @@ textarea.input100 {
   }
 }
 
+/*------------------------------------------------------------------
+[ Responsive ]*/
+
+@media only screen and (min-width: 768px) and (max-width: 1280px) {
+  .img-mom {
+    width: 64%;
+    object-fit: contain;
+}
+.contact100-form {
+  width: 45%;
+}
+.wrap-contact100 {
+  margin: 80px 20px;
+}
+.contact100-form {
+  padding: 40px;
+}
+}
 
 
