@@ -194,7 +194,7 @@ iframe {
 } */
 
 .img-rel {
-  width: 650px;
+  width: 600px;
   position: relative;
   z-index: 2;
   left: 100px;
@@ -472,7 +472,18 @@ input.input100 {
 /*------------------------------------------------------------------
 [ Responsive ]*/
 
-@media only screen and (min-width: 768px) and (max-width: 1280px) {
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .img-rel {
+    width: 500px!important;
+    position: relative;
+    z-index: 2;
+    left: 70px!important;
+    bottom: 28px!important;
+}
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1379px) {
   .img-rel {
     width: 500px!important;
     position: relative;
