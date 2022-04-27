@@ -173,25 +173,27 @@ if(isset($_POST['submit']) && $_POST['submit'] == 'submit'){
          <a class="logo-a" href=""><img src="images/hdplus-logo.jpg" alt="" width="74px"></a>
         </div>
         <div class="icon-wrapper">
-         <a class="icon-a" href=""><i class="fab fa-youtube"></i></a>
-         <a class="icon-a" href=""><i class="fab fa-instagram"></i></a>
-         <a class="icon-a" href=""><i class="fab fa-facebook-f"></i></a>
-         <a class="icon-a" href=""><i class="fab fa-twitter"></i></a>
+         <a class="icon-a" href="https://www.youtube.com/channel/UC_7hRKoB5SSUS8tSo_HxUEQ" target="_blank"><i class="fab fa-youtube"></i></a>
+         <a class="icon-a" href="https://instagram.com/hdplusghana?igshid=1katdxt84gff6" target="_blank"><i class="fab fa-instagram"></i></a>
+         <a class="icon-a" href="https://web.facebook.com/hdplusghana/?_rdc=1&#038;_rdr" target="_blank"><i class="fab fa-facebook-f"></i></a>
+         <a class="icon-a" href="https://twitter.com/hdplusghana?s=09" target="_blank"><i class="fab fa-twitter"></i></a>
         </div>
         <div class="text-wrapper">
-          <a class="text-a" href="">Subscribe</a>
-          <a class="text-a" href="">Packages</a>
-          <a class="text-a" href="">Product Info</a>
-          <a class="text-a" href="">Help & Services</a>
-          <a class="text-a" href="">Terms Of Delivery</a>
+          <a class="text-a" href="https://www.hd-plus.com.gh/index.php/packages/#services">Subscribe</a>
+          <a class="text-a" href="https://www.hd-plus.com.gh/index.php/packages/#packages">Packages</a>
+          <a class="text-a" href="https://www.hd-plus.com.gh/index.php/packages/">Product Info</a>
+          <a class="text-a" href="https://www.hd-plus.com.gh/index.php/help/">Help & Services</a>
+          <a class="text-a" href="https://www.hd-plus.com.gh/terms-conditions/">Terms Of Delivery</a>
+
+          
         </div>
         <div class="text-wrapper_b">
-         <a class="text-b" href="">COMPANY</a>
-         <a class="text-b" href="">CAREER</a>
-         <a class="text-b" href="">PRESS</a>
-         <a class="text-b" href="">IMPRINT</a>
-         <a class="text-b" href="">PRIVACY</a>
-         <a class="text-b" href="">TERMS & CONDITIONS</a>
+         <a class="text-b" href="https://www.hd-plus.com.gh/index.php/about-us/">COMPANY</a>
+         <a class="text-b" role="link" aria-disabled="true" disabled>CAREER</a>
+         <a class="text-b" role="link" aria-disabled="true">PRESS</a>
+         <a class="text-b" role="link" aria-disabled="true">IMPRINT</a>
+         <a class="text-b" href="https://www.hd-plus.com.gh/index.php/privacy-statement/">PRIVACY</a>
+         <a class="text-b" href="https://www.hd-plus.com.gh/terms-conditions/">TERMS & CONDITIONS</a>
        </div>
          <div class="ses-wrapper"><a href="https://www.ses.com/">SES GROUP</a></div>
          <div class="c-rigth"><p class="p-footer">COPYRIGHT © 2020 ALL RIGHTS RESERVED</p></div>
