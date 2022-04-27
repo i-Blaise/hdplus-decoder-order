@@ -208,7 +208,7 @@ iframe {
   overflow: hidden;
   position: relative;
   right: 145px;
-  height: 360px;
+  height: 290px;
   display: flex;
   flex-direction: column;
 }
@@ -412,9 +412,10 @@ input.input100 {
   display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
-  padding: 10px 0 35px;
+  padding: 0 0 35px;
   align-items: center;
   margin: auto;
+  margin-top: 10px;
 }
 
 .login100-form-btn {
@@ -448,7 +449,7 @@ input.input100 {
   color: #000;
   border: 1px solid #000;
 }
-.main-page-text{
+.main-page-text {
   font-size: 16px;
   font-weight: 600;
   text-align: center;
@@ -456,6 +457,8 @@ input.input100 {
   width: 78%;
   margin: auto;
   margin-right: 40px;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .main-page-header{
@@ -471,11 +474,11 @@ input.input100 {
 
 @media only screen and (min-width: 768px) and (max-width: 1280px) {
   .img-rel {
-    width: 500px;
+    width: 500px!important;
     position: relative;
     z-index: 2;
-    left: 70px;
-    bottom: 28px;
+    left: 70px!important;
+    bottom: 28px!important;
 }
 }
 
